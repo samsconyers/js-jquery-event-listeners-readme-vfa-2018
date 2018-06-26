@@ -12,10 +12,9 @@ $(document).ready(function(){
   }
   function pressIt() {
     $('#typing').on('keydown', function(e) {
-      if e.which == 71 {
+      if (e.which == 71) {
       alert ("G")
-        
-      }
+      }}
   }
   
 });
