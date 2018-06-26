@@ -8,7 +8,7 @@ $(document).ready(function(){
   )}
   function frameIt() {
     $('img').on('load', function()
-    )
+      $('img').addClass)
   }
 });
 
