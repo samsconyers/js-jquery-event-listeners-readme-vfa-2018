@@ -12,7 +12,7 @@ $(document).ready(function(){
   }
   function pressIt() {
     $('typing').on('keydown', function()
-      alert
+      alert 71
   }
 });
 
