@@ -11,7 +11,8 @@ $(document).ready(function(){
       $('img').addClass('tasty'))
   }
   function pressIt() {
-    $('input')
+    $('typing').on('keydown', function()
+      alert
   }
 });
 
