@@ -8,17 +8,18 @@ $(document).ready(function(){
   )}
   function frameIt() {
     $('img').on('load', function()
-      $('img').addClass('tasty'))
+      $('img').addClass('tasty'));
   }
   function pressIt() {
     $('#typing').on('keydown', function(e) {
       if (e.which == 71) {
-      alert ("G")
+      alert ("G");
       }}
   )}
   function submitIt() {
-    $().on('submit', function()
-    )
+    $('form').on('submit', function()
+      alert ("Your form is going to be submitted now.")
+      );
   }
 });
 
