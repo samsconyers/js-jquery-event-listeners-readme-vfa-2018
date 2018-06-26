@@ -15,7 +15,10 @@ $(document).ready(function(){
       if (e.which == 71) {
       alert ("G")
       }}
+  )}
+  function submitIt() {
+    $().on('submit', function()
+    )
   }
-  
 });
 
